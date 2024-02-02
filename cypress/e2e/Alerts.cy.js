@@ -52,8 +52,6 @@ describe("Alerts",()=>{
        cy.get("#result").should('have.text', 'You entered: null')
     })
 
-    
-
     it("Input BOX with OK / CANCEL Alert", ()=>{
 
 
@@ -67,3 +65,4 @@ describe("Alerts",()=>{
 
 
 })
+
